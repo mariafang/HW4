@@ -1,0 +1,23 @@
+body {	background: #CED8F6;
+		color: Black;
+		font-family: Times New Roman, Times, serif;
+		font-size: 12pt;
+		margin: 30px; 
+	}
+h1{
+			font-size: 24pt;
+			font-variant: small-caps;
+			font-weight: bold;
+			margin-top: 15px;
+			margin-bottom: 15px; 
+			color: #8000FF
+	}
+
+h2{
+			font-size: 14pt;
+			font-weight: normal;
+			padding-bottom: 0px;
+			margin-top: 5px;
+			margin-bottom: 5px;
+	}	
+

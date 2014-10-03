@@ -5,16 +5,19 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Salary Calculation Web Site</title>
+    <link rel="stylesheet" type="text/css" href="yuan.css" />
 </head>
 <body style="height: 438px">
     <form id="form1" runat="server">
     <div>
+
+        <h1>Yuan's Salary Calculator</h1>
     
-        Salary Calculation: Please enter your information below 
+        <h2>Please enter your information below</h2>  
             <br />
+            <br />
+        Wage:
         <br />
-            <br />
-        Hourly wage:<br />
         <asp:TextBox ID="HourlyWage" runat="server"></asp:TextBox>
         <br />
         <br />
@@ -37,7 +40,7 @@
         <br />
         <br />
         <br />
-        <asp:Label ID="Results" runat="server"></asp:Label>
+        <h2><asp:Label ID="Results" runat="server"></asp:Label></h2>
     
     </div>
     </form>
