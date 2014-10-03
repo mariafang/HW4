@@ -21,7 +21,7 @@
         <asp:TextBox ID="HourlyWage" runat="server"></asp:TextBox>
         <br />
         <br />
-        Number of hours worked this week:<br />
+        Number of hours:<br />
         <asp:TextBox ID="Hours" runat="server"></asp:TextBox>
         <br />
         <br />
